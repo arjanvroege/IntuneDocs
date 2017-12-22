@@ -59,7 +59,7 @@ Exclusion only evaluates the direct members of the groups, and does not include 
 If you include **All Devices**, but exclude **All Users**, all the devices receive the policy. The intent in this case is to exclude devices that have an associated user from this policy. However, it does not because the exclusion feature only compares direct group members. 
 
 >[!Tip]
->Exclusions are not currently available for compliance policies or app assignment. 
+>Exclusions are not currently available for app assignments. 
 >To exclude members from an assignment, you can use the Available, and Not applicable assignment intents. For example, you assign an app to **All corporate users** with the **Available** intent, and to **Senior Management Staff** with the **Not applicable** intent. the app is assigned to all users *except* users in the **Senior Management Staff** group. If you assign the app to **All corporate users** with the **Required** intent, the users in the **Senior Management Staff** group are not excluded.
  
  	
